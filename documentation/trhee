@@ -1,0 +1,42 @@
+/site
+├── /assets
+│   ├── /css
+│   │   ├── base.css          # Estilos base, incluindo reset de CSS
+│   │   ├── layout.css        # Estilos de layout, com flexbox, grid, etc.
+│   │   ├── typography.css    # Tipografia e fontes
+│   │   ├── mobile.css        # Estilos específicos para mobile
+│   │   ├── tablet.css        # Estilos para tablets (se necessário)
+│   │   ├── desktop.css       # Estilos para desktops e telas grandes
+│   │   ├── style.css         # Arquivo CSS principal com importações
+│   ├── /images
+│   │   ├── logo.png
+│   │   └── product.jpg
+│   └── /js
+│       ├── script.js
+│       └── mobile.js         # Scripts específicos para mobile
+├── /config
+│   ├── db.php                # Configuração do banco de dados (config.php deve ser renomeado)
+│   └── fetch.php             # Script para buscar dados do banco de dados
+├── /includes
+│   ├── header.php            # Cabeçalho do site
+│   ├── footer.php            # Rodapé do site
+│   └── sidebar.php           # Barra lateral do site
+├── /public
+│   ├── index.php             # Página principal
+│   ├── login.php             # Página de login
+│   ├── ecommerce.php         # Página de e-commerce
+│   ├── dashboard.php         # Página do dashboard
+│   └── logout.php            # Script para logout
+├── /admin
+│   ├── dashboard.php         # Página de administração
+│   └── manage_products.php    # Página de gerenciamento de produtos
+├── /php
+│   ├── login.php             # Lógica de login
+│   ├── register.php          # Lógica de registro de novos usuários
+│   ├── logout.php            # Lógica de logout
+│   └── product_actions.php   # Lógica de gerenciamento de produtos
+├── /styles
+│   ├── mobile-first.css      # Arquivo CSS base para design mobile-first
+├── .gitignore                # Para ignorar arquivos não necessários no git
+├── composer.json             # Gerenciamento de dependências PHP (caso necessário)
+└── README.md                 # Descrição do projeto
