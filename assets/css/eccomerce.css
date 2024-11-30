@@ -1,1165 +1,4545 @@
-/* Global Styles */
-body {
-    background-color: black;
-    font-family: "Inter", sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Navbar */
-  .navbar {
-    height: 201px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 350px;
-    padding: 20px;
-  }
-  
-  .dom-sex-08-00-19-00 {
-    color: white;
-    font-family: "Inter-Medium", sans-serif;
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .ironberg-id-logo-branco-2 {
-    width: 139px;
-    height: 115px;
-    object-fit: cover;
-  }
-  
-  /* Navigation Links */
-  .nav-links ul {
-    display: flex;
-    gap: 30px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .nav-links li {
-    display: inline;
-  }
-  
-  .nav-links a {
-    color: white;
-    font-family: "Inter-Bold", sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 700;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    color: #c80a2c; /* Optional hover effect */
-  }
-  
-  /* Contact Button */
-  .btn {
-    background: #c80a2c;
-    border-radius: 5px;
-    padding: 16px 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .contact {
-    color: white;
-    font-family: "Inter-Bold", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-  }
-  
-  .contact:hover {
-    background-color: #ff4a6b; /* Optional hover effect */
-  }
-  
-  .right{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 650px;
-    padding: 20px;
-  }
-  
-  
-  .bg,
-  .bg * {
-    box-sizing: border-box;
-  }
-  .bg {
-    background: radial-gradient(
-      closest-side,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 1) 100%
-    );
-    height: 806.39px;
-    position: relative;
-    overflow: hidden;
-  }
-  .background {
-    background: radial-gradient(
-      closest-side,
-      rgba(240, 14, 14, 0) 0%,
-      rgba(0, 0, 0, 0) 0%
-    );
-    width: 700px;
-    height: 100%;
-    position: absolute;
-    left: 1920px;
-    bottom: 0%;
-    top: 0%;
-  }
-  .heading-2 {
-    width: 650px;
-    height: 110px;
-    position: absolute;
-    left: 50px;
-    top: calc(50% - 106.45px);
-  }
-  .rectangle {
-    width: 269.23px;
-    height: 22.88px;
-    position: absolute;
-    left: 50px;
-    top: calc(50% - -23.55px);
-  }
-  .link {
-    border-radius: 160px;
-    width: 153.53px;
-    height: 40.02px;
-    position: absolute;
-    left: 50px;
-    top: calc(50% - -66.43px);
-  }
-  .frame-12 {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 1920px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    overflow: hidden;
-  }
-  .image-17 {
-    align-self: stretch;
-    flex-shrink: 0;
-    height: 806.39px;
-    position: relative;
-    object-fit: cover;
-  }
-  .links {
-    background: radial-gradient(
-      closest-side,
-      rgba(240, 14, 14, 0) 0%,
-      rgba(0, 0, 0, 0) 0%
-    );
-    width: 700px;
-    height: 100%;
-    position: absolute;
-    left: 0px;
-    bottom: 0%;
-    top: 0%;
-  }
-  .heading-2-black-army {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Montserrat-Bold", sans-serif;
-    font-size: 50px;
-    line-height: 55px;
-    font-weight: 700;
-    position: absolute;
-    left: 50px;
-    top: 324px;
-    width: 360px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .nosso-melhor-pre-o-com-at-30-off {
-    color: #ff2020;
-    text-align: left;
-    font-family: "Roboto-Medium", sans-serif;
-    font-size: 16px;
-    line-height: 22.88px;
-    font-weight: 500;
-    position: absolute;
-    left: 50px;
-    top: 399px;
-    width: 334px;
-    height: 23px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .bot-o {
-    background-color: white;
-    border-radius: 160px;
-    width: 163.89px;
-    height: 40.02px;
-    position: absolute;
-    left: 50px;
-    top: calc(50% - -38.93px);
-  }
-  .compre-agora {
-    color: #000000;
-    text-align: left;
-    font-family: "Montserrat-Bold", sans-serif;
-    font-size: 14px;
-    line-height: 20.02px;
-    font-weight: 700;
-    position: absolute;
-    left: 30px;
-    top: 11px;
-    width: 104.25px;
-    height: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .produtos,
-  .produtos * {
-    box-sizing: border-box;
-  }
-  .produtos {
-    display: flex;
-    flex-direction: column;
-    gap: 107px;
-    align-items: center;
-    justify-content: flex-start;
-    height: 920px;
-    position: relative;
-  }
-  .produtos2 {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 2261px;
-    height: 840px;
-    position: absolute;
-    left: 0px;
-    bottom: -25px;
-  }
-  .frame-51 {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .frame-50 {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .frame-49 {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .produto {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 442.5px;
-    position: relative;
-  }
-  .frame-48 {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .frame-42 {
-    border-radius: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 442.5px;
-    height: 663.75px;
-    position: relative;
-  }
-  .paragraph-background {
-    background: #ffffff;
-    border-radius: 5px;
-    padding: 7px 9px 7px 9px;
-    display: flex;
-    flex-direction: row;
-    gap: 3px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  ._20 {
-    color: #000000;
-    text-align: center;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 12px;
-    line-height: 13.2px;
-    font-weight: 400;
-    position: relative;
-    width: 25.93px;
-    height: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .off {
-    color: #000000;
-    text-align: center;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 10px;
-    line-height: 11px;
-    font-weight: 400;
-    position: relative;
-    width: 18.25px;
-    height: 11px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .heading-3 {
-    align-self: stretch;
-    flex-shrink: 0;
-    height: 16px;
-    position: relative;
-    overflow: hidden;
-  }
-  .regata-athleisure-dry-fit-chumbo {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 276.59px;
-    height: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .frame-47 {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 155.26px;
-    position: relative;
-  }
-  .frame-46 {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .icon {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon2 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon3 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon4 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon5 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .frame-45 {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .frame-43 {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .de {
-    color: #91979a;
-    text-align: left;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    position: relative;
-    width: 14.59px;
-    height: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .r-149-90 {
-    color: #91979a;
-    text-align: left;
-    font-family: "Roboto-Light", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    text-decoration: line-through;
-    position: relative;
-    width: 50.18px;
-    height: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .por {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Roboto-Bold", sans-serif;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 700;
-    position: relative;
-    width: 18.23px;
-    height: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .r-119-92 {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Roboto-Bold", sans-serif;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 700;
-    position: relative;
-    width: 52.27px;
-    height: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .frame-44 {
-    padding: 8px;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .strong-10-x {
-    color: #666666;
-    text-align: left;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 12px;
-    line-height: 14px;
-    font-weight: 400;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .produto2 {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 442.5px;
-    position: relative;
-  }
-  .frame-41 {
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    height: 678.75px;
-    position: relative;
-  }
-  .link {
-    flex-shrink: 0;
-    height: 678.75px;
-    position: absolute;
-    right: 0px;
-    left: 0px;
-    top: 0px;
-  }
-  .image-16 {
-    border-radius: 5px;
-    width: 442.5px;
-    height: 662.75px;
-    position: absolute;
-    left: -0.5px;
-    top: 0.61px;
-    object-fit: cover;
-  }
-  .frame-40 {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .camiseta-athleisure-dry-fit-gola-v-bronze {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 267.21px;
-    height: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .frame-39 {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 147.26px;
-    position: relative;
-  }
-  .frame-38 {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .icon6 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon7 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon8 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon9 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon10 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .frame-37 {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .frame-36 {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .strong-10-x2 {
-    color: #666666;
-    text-align: left;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 12px;
-    line-height: 14px;
-    font-weight: 400;
-    position: relative;
-    align-self: stretch;
-    height: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .produto3 {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 442.5px;
-    position: relative;
-  }
-  .produto4 {
-    flex-shrink: 0;
-    width: 443px;
-    height: 663px;
-    position: relative;
-    overflow: hidden;
-  }
-  .image-11 {
-    border-radius: 5px;
-    width: 442.5px;
-    height: 662.75px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    object-fit: cover;
-  }
-  .frame-33 {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .camisa-supreme-army-preto {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 240.61px;
-    height: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .frame-32 {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 99px;
-    position: relative;
-  }
-  .frame-31 {
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .icon11 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon12 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon13 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon14 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon15 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .frame-30 {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    align-items: flex-end;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .frame-28 {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .r-319-00 {
-    color: #91979a;
-    text-align: left;
-    font-family: "Roboto-Light", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    text-decoration: line-through;
-    position: relative;
-    width: 50.18px;
-    height: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .frame-29 {
-    padding: 8px;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .frame-34 {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 65px;
-    height: 28px;
-    position: absolute;
-    left: 5px;
-    top: 4.38px;
-  }
-  .image-19 {
-    border-radius: 5px;
-    flex-shrink: 0;
-    width: 442.5px;
-    height: 662.75px;
-    position: relative;
-    object-fit: cover;
-  }
-  .camiseta-athleisure-dry-fit-gola-v-chumbo {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 276.59px;
-    height: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .icon16 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon17 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon18 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon19 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon20 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .paragraph-background2 {
-    background: #ffffff;
-    border-radius: 5px;
-    padding: 7px 9px 7px 9px;
-    display: flex;
-    flex-direction: row;
-    gap: 3px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: absolute;
-    left: 6px;
-    top: 5.39px;
-  }
-  .produto5 {
-    flex-shrink: 0;
-    width: 443px;
-    height: 900px;
-    position: relative;
-    overflow: hidden;
-  }
-  .rectangle {
-    width: 51.91px;
-    height: 18px;
-    position: absolute;
-    left: 93.97px;
-    top: calc(50% - -344.63px);
-  }
-  .link2 {
-    height: 30px;
-    position: absolute;
-    right: 0.5px;
-    left: 345.94000244140625px;
-    top: 5px;
-  }
-  .frame-35 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 442.5px;
-    position: absolute;
-    left: 1px;
-    top: 39px;
-  }
-  .produto6 {
-    flex-shrink: 0;
-    width: 442.5px;
-    height: 678.75px;
-    position: relative;
-    overflow: hidden;
-  }
-  .frame-52 {
-    padding: 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 81.18px;
-    position: absolute;
-    left: -2px;
-    top: 4px;
-  }
-  .frame-53 {
-    border-radius: 5px;
-    padding: 5px 6px 5px 6px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 442.5px;
-    height: 663.75px;
-    position: relative;
-  }
-  .paragraph-background3 {
-    background: #ffffff;
-    border-radius: 5px;
-    padding: 7px 9px 7px 9px;
-    display: flex;
-    flex-direction: row;
-    gap: 3px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 66px;
-    position: relative;
-  }
-  .frame-342 {
-    margin: -12px 0 0 0;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 66px;
-    height: 33px;
-    position: relative;
-  }
-  .link3 {
-    flex-shrink: 0;
-    height: 678.75px;
-    position: absolute;
-    right: 0.5px;
-    left: 0px;
-    top: 0px;
-    mix-blend-mode: hard-light;
-  }
-  .frame-332 {
-    margin: -12px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-  }
-  .camiseta-supreme-army-bege {
-    color: #ffffff;
-    text-align: left;
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 240.61px;
-    height: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .icon21 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon22 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon23 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon24 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .icon25 {
-    flex-shrink: 0;
-    width: 14.86px;
-    height: 16px;
-    position: relative;
-    overflow: visible;
-  }
-  .genero {
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: absolute;
-    left: 681px;
-    top: 0px;
-  }
-  .mesculino {
-    flex-shrink: 0;
-    width: 234.83px;
-    height: 67px;
-    position: relative;
-  }
-  .masculino {
-    color: #ffffff;
-    text-align: center;
-    font-family: "Montserrat-Bold", sans-serif;
-    font-size: 24px;
-    line-height: 27px;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: absolute;
-    left: calc(50% - 77.42px);
-    top: 19px;
-    width: 155.15px;
-    height: 29px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .background {
-    background: #ffffff;
-    width: 100%;
-    height: 3px;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    bottom: 5px;
-  }
-  .feminino {
-    flex-shrink: 0;
-    width: 209.16px;
-    height: 67px;
-    position: relative;
-  }
-  .feminino2 {
-    color: #ffffff;
-    text-align: center;
-    font-family: "Montserrat-Bold", sans-serif;
-    font-size: 24px;
-    line-height: 27px;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: absolute;
-    left: calc(50% - 64.58px);
-    top: 19px;
-    width: 129.46px;
-    height: 29px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .background2 {
-    background: #666666;
-    width: 100%;
-    height: 3px;
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    bottom: 5px;
-  }
-  
+.turbo-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 9999;
+  transition:
+    width 300ms ease-out,
+    opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+/* MEDIA QUERIES */
+.anima-desktop-only {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .anima-desktop-only {
+    display: none !important;
+  }
+}
+
+/* SCROLLBAR */
+
+[dark-scroll]::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+[dark-scroll]::-webkit-scrollbar-track-piece {
+  background-color: #2b2b2b;
+  border: 1px solid #1d1d1d;
+}
+
+[dark-scroll]::-webkit-scrollbar-thumb {
+  height: 10px;
+  background-color: #4d4d4d;
+}
+[dark-scroll]::-webkit-scrollbar-thumb:hover {
+  background-color: #5a5a5a;
+}
+
+/* LOAD PROGRESS */
+
+.turbolinks-progress-bar {
+  height: 3px;
+  background-color: #ff6250;
+}
+
+/* GROUPING */
+
+[data-id].ui-selecting {
+  box-shadow: inset 0 0 0 1px #4285f4 !important;
+}
+[data-id].ui-selected {
+  box-shadow: inset 0 0 0 1px #4285f4 !important;
+}
+
+/* CURSOR */
+
+body[mode='comments'] * {
+  cursor: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00LjkxNjQ4IDIzLjQxMDlDNS40OTE1MyAyMi45ODg3IDUuOTMxNzkgMjIuMzkzNSA2LjIzMjggMjEuNjQwN0M0Ljc5MDY5IDE5LjczODMgNCAxNy4zOTMzIDQgMTQuOTk3NUM0IDguOTM0MSA4LjkzMjgyIDQgMTUuMDAyMiA0QzIxLjA3MTcgNCAyNiA4LjkzOTE5IDI2IDE1LjAwMjVDMjYgMjEuMDY1OSAyMS4wNjcyIDI2IDE0Ljk5NzggMjZDMTIuOTg5NiAyNiAxMS4wMzUzIDI1LjQ1NTcgOS4zMjM2NyAyNC40MjMxQzguNDI5NjUgMjQuOTU3MiA3LjQxNDM0IDI1LjIyNjggNi4zMDAxOCAyNS4yMjY4QzUuOTU0MjYgMjUuMjI2OCA1LjU5OTM1IDI1LjIwMTQgNS4yNTM0MiAyNS4xNDU0QzQuOTAzIDI1LjA4OTUgNC42Mjg5NiAyNC44MDQ2IDQuNTUyNTggMjQuNDE4QzQuNDc2MjEgMjQuMDI2NCA0LjYxOTk3IDIzLjYyOTYgNC45MTY0OCAyMy40MTA5WiIgZmlsbD0iI0ZGNjI1MCIvPgo8L3N2Zz4K')
+      0 24,
+    auto !important;
+}
+
+body[mode='code'] [data-id]:not(.hidden) {
+  cursor: default;
+}
+
+/* default node state */
+
+body[mode='code'] [data-id]:not(.hidden), body[mode='comments'] [data-id]:not(.hidden) {
+  pointer-events: all;
+}
+
+/* is_image */
+
+body[mode='code'] [data-id].is_image [data-id], body[mode='comments'] [data-id].is_image [data-id] {
+  pointer-events: none !important;
+}
+
+/* without a data-id or ignored */
+
+[data-id].ignore,body[mode='code'] *:not([data-id]) {
+  pointer-events: none !important;
+}
+/* disable transforms for ignored elements */
+
+
+body[mode='code'] [data-id]:hover{
+  transform: none !important;
+}
+
+/* ANIMA BUTTONS */
+.an-button {
+  position: relative;
+  height: 28px;
+  padding: 0 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition-property: all;
+  transition-duration: 100ms;
+  appearance: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: all 0.2s ease;
+  border-width: 0;
+}
+
+.an-button > div {
+  width: 100%;
+}
+
+.an-button.primary {
+  background: #ff6250;
+  color: #ffffff;
+}
+
+.an-button.primary:hover:not(:disabled) {
+  background: #e2412e;
+}
+
+.an-button.secondary {
+  background: transparent;
+  border: 1px solid #ff6250;
+  color: #ff6250;
+}
+
+.an-button.secondary:hover:not(:disabled) {
+  color: #ffffff;
+  background: #ff6250;
+}
+
+.an-button.rounded {
+  border-radius: 100px;
+}
+
+.an-button:disabled {
+  opacity: 0.5;
+}
+
+.an-button:disabled {
+  cursor: default;
+}
+
+.an-button:active,
+.an-button:focus {
+  outline: none;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,700italic,300,500,400|Montserrat:700|Inter:500,400,700");
+
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/66dcbd17ea1b5ba552a570ff.66dcbd18ea1b5ba552a57102.iSCvplz.hch.png");
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+  --black: #000000;
+  --granite-gray: #666666;
+  --mine-shaft: #333333;
+  --mountain-mist: #91979a;
+  --seashell: #f1f1f1b2;
+  --silver: #bfbfbf;
+  --white: #ffffff;
+ 
+  --font-size-l: 13px;
+  --font-size-m: 12px;
+  --font-size-s: 10.3px;
+  --font-size-xl: 14px;
+  --font-size-xxl: 16px;
+  --font-size-xxxl: 20px;
+  --font-size-xxxxl: 24px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.roboto-bold-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-silver-12px {
+  color: var(--silver);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-mountain-mist-13px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-light-mountain-mist-12px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.roboto-normal-granite-gray-12px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-10px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+:root {
+}
+
+
+/* screen - ecommerce-page */
+
+.ecommerce-page {
+  background-color: var(--black);
+  height: 5576px;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 1920px;
+}
+
+.ecommerce-page .background-ELDLPn {
+  background-color: transparent;
+  height: 4524px;
+  left: 0px;
+  position: absolute;
+  top: 1009px;
+  width: 1920px;
+}
+
+.ecommerce-page .footer-ELDLPn {
+  background-color: var(--black);
+  height: 524px;
+  left: 0px;
+  position: absolute;
+  top: 4974px;
+  width: 1920px;
+}
+
+.ecommerce-page .cnpj-EyY439 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  left: 741px;
+  position: absolute;
+  top: 511px;
+}
+
+.ecommerce-page .ironberg-cnpj-aaaaaa-lCRv5h {
+  background-color: transparent;
+  color: var(--silver);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+  line-height: 18.6px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .informaes-EyY439 {
+  justify-content: space-between;
+  left: 335px;
+  position: absolute;
+  top: 370px;
+  width: 1250px;
+}
+
+.ecommerce-page .formas-de-pagamento-nRJMMT {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 349.05999755859375px;
+}
+
+.ecommerce-page .heading-2-formas-de-pagamento-JaFh4x {
+  align-self: stretch;
+  background-color: transparent;
+  height: 20.020000457763672px;
+  letter-spacing: 0.14px;
+  line-height: 20.0px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ecommerce-page .frame-20-JaFh4x {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 10px 5px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .bt-pgto-paypalpng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/bt-pgto-paypal-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 74.12999725341797px;
+}
+
+.ecommerce-page .bt-pgto-mercadopagopng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/bt-pgto-mercadopago-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 73.33000183105469px;
+}
+
+.ecommerce-page .bt-pgto-paghiperpng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/bt-pgto-paghiper-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 85.05999755859375px;
+}
+
+.ecommerce-page .visapng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/visa-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 48.27000045776367px;
+}
+
+.ecommerce-page .mastercardpng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/mastercard-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 48.27000045776367px;
+}
+
+.ecommerce-page .elopng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/elo-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 48.27000045776367px;
+}
+
+.ecommerce-page .hipercardpng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/hipercard-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 48.27000045776367px;
+}
+
+.ecommerce-page .amexpng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/amex-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 48.27000045776367px;
+}
+
+.ecommerce-page .bookletpng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/booklet-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 48.27000045776367px;
+}
+
+.ecommerce-page .pixpng-YSrySo {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/pix-png.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4px;
+  height: 28px;
+  overflow: hidden;
+  position: relative;
+  width: 48.27000045776367px;
+}
+
+.ecommerce-page .segurana-nRJMMT {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  position: relative;
+  width: 336.7001953125px;
+}
+
+.ecommerce-page .heading-2-segurana-agEqdU {
+  align-self: stretch;
+  background-color: transparent;
+  height: 20.020000457763672px;
+  letter-spacing: 0.14px;
+  line-height: 20.0px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ecommerce-page .frame-22-agEqdU {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 17px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .link-hO5mDV {
+  background-color: var(--mine-shaft);
+  border-radius: 5px;
+  height: 39.15999984741211px;
+  position: relative;
+  width: 152.6999969482422px;
+}
+
+.ecommerce-page .icon-C8Fls4 {
+  height: 12px;
+  left: 11px;
+  top: 13px;
+  width: 11px;
+}
+
+.ecommerce-page .x49-C8Fls4 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  height: 17px;
+  left: 22px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 20px;
+}
+
+.ecommerce-page .x2381-avaliaes-C8Fls4 {
+  background-color: transparent;
+  height: 14px;
+  left: 47px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: 98px;
+}
+
+.ecommerce-page .link-NLXKn4 {
+  background-color: transparent;
+  height: 28.299999237060547px;
+  position: relative;
+  width: 75px;
+}
+
+.ecommerce-page .googlepng-BNa8Hu {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/google-png@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 28px;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 75px;
+}
+
+.ecommerce-page .link-cCxATf {
+  background-color: transparent;
+  height: 74.22000122070312px;
+  position: relative;
+  width: 75px;
+}
+
+.ecommerce-page .ra-66fd4ef1d72f71jpg-L1pg35 {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/ra-66fd4ef1d72f71-jpg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 74px;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 75px;
+}
+
+.ecommerce-page .footer-EyY439 {
+  align-items: flex-start;
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--mine-shaft);
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  display: flex;
+  gap: 95px;
+  height: 279px;
+  left: 335px;
+  position: absolute;
+  top: 66px;
+  width: 1251px;
+}
+
+.ecommerce-page .informaes-pNVz7b {
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 169.41000366210938px;
+}
+
+.ecommerce-page .heading-2-informaes-PCHsEw {
+  align-self: stretch;
+  background-color: transparent;
+  height: 20.020000457763672px;
+  letter-spacing: 0.14px;
+  line-height: 20.0px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ecommerce-page .lista-de-itens-PCHsEw {
+  align-self: stretch;
+  background-color: transparent;
+  height: 192.08999633789062px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .item-CijlxS {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 169px;
+}
+
+.ecommerce-page .link-Jx7Os4 {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 72px;
+}
+
+.ecommerce-page .quem-somos-9Hxxog {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 73px;
+}
+
+.ecommerce-page .item-bJMHTj {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  top: 29px;
+  width: 169px;
+}
+
+.ecommerce-page .link-DNrKB7 {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 169px;
+}
+
+.ecommerce-page .poltica-de-trocas-e-devolues-Egjf64 {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.ecommerce-page .item-1shHD4 {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  top: 58px;
+  width: 169px;
+}
+
+.ecommerce-page .link-5N5lX8 {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 119px;
+}
+
+.ecommerce-page .poltica-de-reembolso-Zdr625 {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 119px;
+}
+
+.ecommerce-page .item-i4BYDy {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  top: 87px;
+  width: 169px;
+}
+
+.ecommerce-page .link-5jnto0 {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 141px;
+}
+
+.ecommerce-page .poltica-de-entrega-e-envio-C32DPU {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 141px;
+}
+
+.ecommerce-page .item-L5fUFv {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  top: 117px;
+  width: 169px;
+}
+
+.ecommerce-page .link-NVx80B {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 120px;
+}
+
+.ecommerce-page .poltica-de-privacidade-Ha2yxb {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 121px;
+}
+
+.ecommerce-page .item-SFmsZ0 {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  top: 146px;
+  width: 169px;
+}
+
+.ecommerce-page .link-e26q4C {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 79px;
+}
+
+.ecommerce-page .termos-de-uso-pEub40 {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.ecommerce-page .item-Dw69ak {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  top: 175px;
+  width: 169px;
+}
+
+.ecommerce-page .link-sxxwcW {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 73px;
+}
+
+.ecommerce-page .fale-conosco-k4UrH2 {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 73px;
+}
+
+.ecommerce-page .formulario-pNVz7b {
+  gap: 12px;
+  padding: 0px 35px;
+  width: 334.7799987792969px;
+}
+
+.ecommerce-page .receba-nossas-ofertas-e-novidades-LNNFgl {
+  background-color: transparent;
+  height: 20px;
+  letter-spacing: 0.14px;
+  line-height: 20.0px;
+  margin-right: -0.22px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.ecommerce-page .formulario-LNNFgl {
+  align-self: stretch;
+  flex: 0 0 auto;
+  gap: 5px;
+  width: 100%;
+}
+
+.ecommerce-page .input-seu-nome-xxh1P9 {
+  align-self: stretch;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: var(--mine-shaft);
+  border-radius: 5px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .container-Qon6xt {
+  height: 14px;
+  left: 16px;
+  position: relative;
+  top: 13px;
+  width: 233px;
+}
+
+.ecommerce-page .digite-seu-nome-aqui-eG6Yv1 {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 112px;
+}
+
+.ecommerce-page .input-seu-e-mail-xxh1P9 {
+  align-self: stretch;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: var(--mine-shaft);
+  border-radius: 5px;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .container-zgquXs {
+  height: 14px;
+  left: 16px;
+  position: relative;
+  top: 13px;
+  width: 233px;
+}
+
+.ecommerce-page .digite-seu-e-mail-aqui-GHmVFj {
+  background-color: transparent;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 115px;
+}
+
+.ecommerce-page .boto-xxh1P9 {
+  align-self: stretch;
+  background-color: var(--mine-shaft);
+  border: 1px solid;
+  border-color: var(--mine-shaft);
+  height: 43.15999984741211px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .assinar-gmWevk {
+  background-color: transparent;
+  height: 14px;
+  left: 108px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 50px;
+}
+
+.ecommerce-page .informaes-WSvXTy {
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 399.6400146484375px;
+}
+
+.ecommerce-page .contatos-LbeuxZ {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 11px;
+  margin-right: -0.36px;
+  position: relative;
+  width: 400px;
+}
+
+.ecommerce-page .heading-2-fale-conosco-nFBkhR {
+  align-self: stretch;
+  background-color: transparent;
+  height: 20.020000457763672px;
+  letter-spacing: 0.14px;
+  line-height: 20.0px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ecommerce-page .lista-de-contatos-nFBkhR {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 400px;
+}
+
+.ecommerce-page .item-14TC0u {
+  align-self: stretch;
+  background-color: transparent;
+  height: 17.15999984741211px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .link-9YzgPz {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 400px;
+}
+
+.ecommerce-page .icon-sEjSRG {
+  height: 11px;
+  left: 0px;
+  top: 1px;
+  width: 11px;
+}
+
+.ecommerce-page .para-atacado-e-revenda-sEjSRG {
+  background-color: transparent;
+  height: 17px;
+  left: 21px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 129px;
+}
+
+.ecommerce-page .item-oxR7Vt {
+  align-self: stretch;
+  background-color: transparent;
+  height: 17.15999984741211px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .link-I9LbV3 {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 400px;
+}
+
+.ecommerce-page .icon-7MhZLn {
+  height: 11px;
+  left: 0px;
+  top: 1px;
+  width: 11px;
+}
+
+.ecommerce-page .x11-99880-2328-7MhZLn {
+  background-color: transparent;
+  height: 17px;
+  left: 17px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 92px;
+}
+
+.ecommerce-page .para-atendimento-ao-cliente-7MhZLn {
+  background-color: transparent;
+  height: 17px;
+  left: 113px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.ecommerce-page .item-Auw5UD {
+  align-self: stretch;
+  background-color: transparent;
+  height: 17.15999984741211px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .link-QTcGp5 {
+  background-color: transparent;
+  height: 17px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 400px;
+}
+
+.ecommerce-page .icon-wnfxJf {
+  height: 11px;
+  left: 0px;
+  top: 1px;
+  width: 15px;
+}
+
+.ecommerce-page .contatoarmyfitcombr-wnfxJf {
+  background-color: transparent;
+  height: 17px;
+  left: 21px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 133px;
+}
+
+.ecommerce-page .horizontal-border-LbeuxZ {
+  align-self: stretch;
+  background-color: transparent;
+  border-bottom-style: none;
+  border-color: var(--mine-shaft);
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 120.77999877929688px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .svg-WNm5ZV {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 11px;
+  width: 20px;
+}
+
+.ecommerce-page .informaes-WNm5ZV {
+  flex-direction: column;
+  gap: 2px;
+  left: 2px;
+  position: absolute;
+  top: 14px;
+  width: 406px;
+}
+
+.ecommerce-page .horrio-de-atendimento-U4iGmR {
+  height: 14px;
+  margin-top: -1.00px;
+  white-space: nowrap;
+}
+
+.ecommerce-page .frame-27-U4iGmR {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-25-xnXtRi {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.ecommerce-page .whatsapp-HpkBL7 {
+  background-color: transparent;
+  height: 17.15999984741211px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 57.23456573486328px;
+}
+
+.ecommerce-page .link-HpkBL7 {
+  background-color: transparent;
+  height: 17.15999984741211px;
+  position: relative;
+  width: 248.22000122070312px;
+}
+
+.ecommerce-page .strong-11-99880-2328-vyDdC6 {
+  background-color: transparent;
+  color: var(--silver);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: 14px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 249px;
+}
+
+.ecommerce-page .frame-26-xnXtRi {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 8px 8px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-24-gfNOTL {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .quer-se-tornar-um-re-tbC2EG {
+  align-self: stretch;
+  background-color: transparent;
+  color: #ecf0f1;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: 14px;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ecommerce-page .frame-23-tbC2EG {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .boto-F6oYCm {
+  align-items: center;
+  background-color: var(--mine-shaft);
+  border-radius: 5px;
+  display: flex;
+  gap: 8px;
+  height: 21px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 84px;
+}
+
+.ecommerce-page .clique-aqui-hsD8rD {
+  background-color: transparent;
+  color: var(--silver);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: relative;
+  text-align: left;
+  width: 80px;
+}
+
+.ecommerce-page .horrio-de-atendimento-F6oYCm {
+  height: 31.149999618530273px;
+}
+
+.ecommerce-page .redes-socias-pNVz7b {
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 62px;
+}
+
+.ecommerce-page .heading-2-conecte-EWV4Kp {
+  background-color: transparent;
+  letter-spacing: 0.14px;
+  line-height: 20.0px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .list-EWV4Kp {
+  background-color: transparent;
+  flex: 0 0 auto;
+  margin-left: -1.00px;
+  position: relative;
+  width: 63px;
+}
+
+.ecommerce-page .oq-falam-ELDLPn {
+  background-color: transparent;
+  height: 287px;
+  left: 55px;
+  position: absolute;
+  top: 4687px;
+  width: 1810px;
+}
+
+.ecommerce-page .heading-2-link-DVWx76 {
+  background-color: transparent;
+  height: 27px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+  width: 315px;
+}
+
+.ecommerce-page .o-que-falam-da-gente-qcTJOi {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 27px;
+  position: absolute;
+  text-align: left;
+  top: -2px;
+  white-space: nowrap;
+  width: 315px;
+}
+
+.ecommerce-page .background-DVWx76 {
+  background-color: var(--white);
+  border-radius: 5.2px;
+  height: 10px;
+  left: 882px;
+  position: absolute;
+  top: 273px;
+  width: 10px;
+}
+
+.ecommerce-page .background-pCRHHD {
+  background-color: transparent;
+  height: 8px;
+  left: 901px;
+  position: absolute;
+  top: 274px;
+  width: 8px;
+}
+
+.ecommerce-page .background-6f3ysI {
+  background-color: var(--granite-gray);
+  border-radius: 4px;
+  height: 8px;
+  left: 919px;
+  position: absolute;
+  top: 274px;
+  width: 8px;
+}
+
+.ecommerce-page .comentarios-DVWx76 {
+  background-color: transparent;
+  height: 200px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 44px;
+  width: 1810px;
+}
+
+.ecommerce-page .background-pQisup {
+  background-color: var(--seashell);
+  border-radius: 20px;
+  height: 200px;
+  left: -0px;
+  position: absolute;
+  top: 0px;
+  width: 441px;
+}
+
+.ecommerce-page .link-LBdBFw {
+  background-color: transparent;
+  height: 18px;
+  left: 20px;
+  position: absolute;
+  top: 16px;
+  width: 401px;
+}
+
+.ecommerce-page .camiseta-cotton-essential-xMwUmr {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  font-weight: 700;
+  height: 16px;
+  left: 119px;
+  letter-spacing: 0.00px;
+  line-height: 18.1px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 163px;
+}
+
+.ecommerce-page .emphasis-mabel-regina-LBdBFw {
+  background-color: transparent;
+  height: 16px;
+  left: 178px;
+  letter-spacing: 0.00px;
+  line-height: 20.0px;
+  position: absolute;
+  text-align: center;
+  top: 77px;
+  white-space: nowrap;
+  width: 85px;
+}
+
+.ecommerce-page .link-mdZqNa {
+  background-color: transparent;
+  height: 50px;
+  left: 206px;
+  position: absolute;
+  top: 102px;
+  width: 28px;
+}
+
+.ecommerce-page .x648afd6e2eea0_minijpeg-xOEcWx {
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/648afd6e2eea0-mini-jpeg@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 50px;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 28px;
+}
+
+.ecommerce-page .icon-LBdBFw {
+  height: 15px;
+  left: 173px;
+  top: 165px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-mdZqNa {
+  height: 15px;
+  left: 193px;
+  top: 165px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-I0Z5fo {
+  height: 15px;
+  left: 212px;
+  top: 165px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-s5GZDG {
+  height: 15px;
+  left: 232px;
+  top: 165px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-0qvoFx {
+  height: 15px;
+  left: 252px;
+  top: 165px;
+  width: 14px;
+}
+
+.ecommerce-page .container-LBdBFw {
+  height: 19px;
+  left: 20px;
+  position: absolute;
+  top: 46px;
+  width: 401px;
+}
+
+.ecommerce-page .achei-que-o-produto-9mBQZD {
+  background-color: transparent;
+  height: 15px;
+  left: 48px;
+  letter-spacing: 0.00px;
+  line-height: 18.6px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 306px;
+}
+
+.ecommerce-page .background-3EnxAY {
+  background-color: var(--seashell);
+  border-radius: 20px;
+  height: 200px;
+  left: 456px;
+  position: absolute;
+  top: 0px;
+  width: 441px;
+}
+
+.ecommerce-page .link-pTzvVm {
+  background-color: transparent;
+  height: 18px;
+  left: 20px;
+  position: absolute;
+  top: 18px;
+  width: 401px;
+}
+
+.ecommerce-page .camiseta-dry-fit-athleisure-chumbo-T10OTo {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: italic;
+  font-weight: 700;
+  height: 16px;
+  left: 89px;
+  letter-spacing: 0.00px;
+  line-height: 18.1px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 224px;
+}
+
+.ecommerce-page .emphasis-antonio-oliveira-pTzvVm {
+  background-color: transparent;
+  height: 16px;
+  left: 172px;
+  letter-spacing: 0.00px;
+  line-height: 20.0px;
+  position: absolute;
+  text-align: center;
+  top: 134px;
+  white-space: nowrap;
+  width: 98px;
+}
+
+.ecommerce-page .icon-pTzvVm {
+  height: 15px;
+  left: 173px;
+  top: 163px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-xl0Uzz {
+  height: 15px;
+  left: 193px;
+  top: 163px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-bAowzx {
+  height: 15px;
+  left: 212px;
+  top: 163px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-jEC9OL {
+  height: 15px;
+  left: 232px;
+  top: 163px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-jWgGuD {
+  height: 15px;
+  left: 252px;
+  top: 163px;
+  width: 14px;
+}
+
+.ecommerce-page .paragraph-pTzvVm {
+  background-color: transparent;
+  height: 74px;
+  left: 20px;
+  overflow: hidden;
+  position: absolute;
+  top: 48px;
+  width: 401px;
+}
+
+.ecommerce-page .camiseta-de-excelent-C0nsPc {
+  background-color: transparent;
+  height: 34px;
+  left: 3px;
+  letter-spacing: 0.00px;
+  line-height: 18.6px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 396px;
+}
+
+.ecommerce-page .compra-realizada-em-junho-de-2024-C0nsPc {
+  background-color: transparent;
+  height: 15px;
+  left: 95px;
+  letter-spacing: 0.00px;
+  line-height: 18.6px;
+  position: absolute;
+  text-align: center;
+  top: 56px;
+  width: 212px;
+}
+
+.ecommerce-page .background-slu1n6 {
+  background-color: var(--seashell);
+  border-radius: 20px;
+  height: 200px;
+  left: 912px;
+  position: absolute;
+  top: 0px;
+  width: 441px;
+}
+
+.ecommerce-page .emphasis-wagner-almeida-ONqevd {
+  background-color: transparent;
+  height: 16px;
+  left: 169px;
+  letter-spacing: 0.00px;
+  line-height: 20.0px;
+  position: absolute;
+  text-align: center;
+  top: 98px;
+  white-space: nowrap;
+  width: 103px;
+}
+
+.ecommerce-page .icon-ONqevd {
+  height: 15px;
+  left: 173px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-RNbxLq {
+  height: 15px;
+  left: 193px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-1m9i0u {
+  height: 15px;
+  left: 212px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-CmYvGW {
+  height: 15px;
+  left: 232px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-PxxSVR {
+  height: 15px;
+  left: 252px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .container-ONqevd {
+  height: 19px;
+  left: 20px;
+  position: absolute;
+  top: 67px;
+  width: 401px;
+}
+
+.ecommerce-page .tecido-super-macio-e-6TNdmT {
+  background-color: transparent;
+  height: 15px;
+  left: 51px;
+  letter-spacing: 0.00px;
+  line-height: 18.6px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 299px;
+}
+
+.ecommerce-page .background-Tts7Ze {
+  background-color: var(--seashell);
+  border-radius: 20px;
+  height: 200px;
+  left: 1368px;
+  position: absolute;
+  top: 0px;
+  width: 441px;
+}
+
+.ecommerce-page .emphasis-luiz-lopes-x3yjnv {
+  background-color: transparent;
+  height: 16px;
+  left: 187px;
+  letter-spacing: 0.00px;
+  line-height: 20.0px;
+  position: absolute;
+  text-align: center;
+  top: 98px;
+  white-space: nowrap;
+  width: 67px;
+}
+
+.ecommerce-page .icon-x3yjnv {
+  height: 15px;
+  left: 173px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-kOJiVe {
+  height: 15px;
+  left: 193px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-JIr6Xh {
+  height: 15px;
+  left: 212px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-5LISsI {
+  height: 15px;
+  left: 232px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .icon-N7Ce7Q {
+  height: 15px;
+  left: 252px;
+  top: 126px;
+  width: 14px;
+}
+
+.ecommerce-page .container-x3yjnv {
+  height: 19px;
+  left: 20px;
+  position: absolute;
+  top: 67px;
+  width: 401px;
+}
+
+.ecommerce-page .produto-de-qualidade-UIqXN1 {
+  background-color: transparent;
+  height: 15px;
+  left: 15px;
+  letter-spacing: 0.00px;
+  line-height: 18.6px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 371px;
+}
+
+.ecommerce-page .crditos-ELDLPn {
+  background-color: var(--black);
+  height: 78px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 5498px;
+  width: 1920px;
+}
+
+.ecommerce-page .desenvolvimento-aefcoders-e4uaYU {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-roboto);
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  height: 19px;
+  left: 867px;
+  letter-spacing: 0.00px;
+  line-height: 18.3px;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  white-space: nowrap;
+  width: 185px;
+}
+
+.ecommerce-page .span0-GLWq75 {
+  color: var(--silver);
+  font-style: normal;
+}
+
+.ecommerce-page .span1-GLWq75 {
+  color: #fc0d0d;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ecommerce-page .span2-GLWq75 {
+  color: var(--white);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ecommerce-page .span3-GLWq75 {
+  color: #fd0e0e;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ecommerce-page .bg-ELDLPn {
+  background: radial-gradient(50% 50% at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  background-color: transparent;
+  height: 806px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 201px;
+  width: 1920px;
+}
+
+.ecommerce-page .background-x7x233 {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(240.12499898672104, 14.007291924208403, 14.007291924208403, 0) 0%, rgba(0, 0, 0, 0) 0%);
+  background-color: transparent;
+  height: 806px;
+  left: 1920px;
+  position: absolute;
+  top: 0px;
+  width: 700px;
+}
+
+.ecommerce-page .link-BFx3lV {
+  background-color: var(--white);
+  border-radius: 160px;
+  height: 40px;
+  left: 50px;
+  position: relative;
+  top: 470px;
+  width: 154px;
+}
+
+.ecommerce-page .frame-12-x7x233 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+
+.ecommerce-page .image-17-UxhDgC {
+  align-self: stretch;
+  background-color: transparent;
+  height: 806.3900146484375px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .links-x7x233 {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(240.12499898672104, 14.007291924208403, 14.007291924208403, 0) 0%, rgba(0, 0, 0, 0) 0%);
+  background-color: transparent;
+  height: 806px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 700px;
+}
+
+.ecommerce-page .heading-2-black-army-NInxxc {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  height: 48px;
+  left: 50px;
+  letter-spacing: 0.00px;
+  line-height: 55px;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 323px;
+  white-space: nowrap;
+  width: 360px;
+}
+
+.ecommerce-page .nosso-melhor-preo-com-at-30-off-NInxxc {
+  background-color: transparent;
+  color: #ff1f1f;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+  height: 23px;
+  left: 50px;
+  letter-spacing: 0.00px;
+  line-height: 22.9px;
+  position: absolute;
+  text-align: left;
+  top: 398px;
+  white-space: nowrap;
+  width: 334px;
+}
+
+.ecommerce-page .boto-NInxxc {
+  background-color: var(--white);
+  border-radius: 160px;
+  height: 40px;
+  left: 50px;
+  position: absolute;
+  top: 442px;
+  width: 164px;
+}
+
+.ecommerce-page .compre-agora-HQL0JX {
+  background-color: transparent;
+  height: 18px;
+  left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 20.0px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: 104px;
+}
+
+.ecommerce-page .produtos-ELDLPn {
+  height: 920px;
+  left: 50px;
+  top: 1054px;
+  width: 2268px;
+}
+
+.ecommerce-page .produtos-xR0AQv {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  height: 840px;
+  left: 0px;
+  top: 105px;
+  width: 2261px;
+}
+
+.ecommerce-page .frame-51-FuxeBp {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.ecommerce-page .frame-50-WScvKG {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.ecommerce-page .frame-49-xZ1bE8 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.ecommerce-page .produto-w5DC1o {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 442.5px;
+}
+
+.ecommerce-page .frame-42-E1yReO {
+  background-color: transparent;
+  height: 663.75px;
+  object-fit: cover;
+  position: relative;
+  width: 442.5px;
+}
+
+.ecommerce-page .heading-3-E1yReO {
+  height: 16px;
+}
+
+.ecommerce-page .regata-athleisure-dry-fit-chumbo-KYeCz8 {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 277px;
+}
+
+.ecommerce-page .strong-10x-tEW3ly {
+  margin-top: -1.00px;
+  width: fit-content;
+}
+
+.ecommerce-page .produto-Zbp02w {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 442.5px;
+}
+
+.ecommerce-page .frame-41-iB6Adw {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 678.75px;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .link-Xb3T8n {
+  background-color: transparent;
+  height: 679px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 442px;
+}
+
+.ecommerce-page .image-16-FdSIm6 {
+  background-color: transparent;
+  height: 663px;
+  left: -0px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 442px;
+}
+
+.ecommerce-page .paragraph-background-Xb3T8n {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.ecommerce-page .frame-40-iB6Adw {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .heading-3-trTYxQ {
+  height: 16px;
+}
+
+.ecommerce-page .camiseta-athleisure-WWqa97 {
+  width: 267px;
+}
+
+.ecommerce-page .frame-39-trTYxQ {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  width: 147.26268005371094px;
+}
+
+.ecommerce-page .frame-38-Nf2mxT {
+  background-color: transparent;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.ecommerce-page .frame-37-Nf2mxT {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-36-PKtF4B {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .strong-10x-PKtF4B {
+  align-self: stretch;
+  height: 14px;
+}
+
+.ecommerce-page .produto-WScvKG {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 442.5px;
+}
+
+.ecommerce-page .produto-wECKGl {
+  height: 663px;
+  margin-right: -0.50px;
+  overflow: hidden;
+  width: 443px;
+}
+
+.ecommerce-page .image-11-x0EcaV {
+  background-color: transparent;
+  height: 663px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 442px;
+}
+
+.ecommerce-page .heading-3-as0tkY {
+  height: 16px;
+}
+
+.ecommerce-page .camisa-supreme-army-preto-ybJrXl {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 241px;
+}
+
+.ecommerce-page .strong-10x-086Nxk {
+  margin-top: -1.00px;
+  width: fit-content;
+}
+
+.ecommerce-page .frame-34-wECKGl {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 28px;
+  left: 5px;
+  position: absolute;
+  top: 4px;
+  width: 65px;
+}
+
+.ecommerce-page .paragraph-background-gza5df {
+  flex: 0 0 auto;
+  margin-right: -0.18px;
+  position: relative;
+}
+
+.ecommerce-page .produto-xRJbbw {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 442.5px;
+}
+
+.ecommerce-page .image-19-ICt1JG {
+  background-color: transparent;
+  height: 662.75px;
+  object-fit: cover;
+  position: relative;
+  width: 442.5px;
+}
+
+.ecommerce-page .heading-3-hQvYx0 {
+  height: 16px;
+}
+
+.ecommerce-page .camiseta-athleisure-AZdoPO {
+  width: 277px;
+}
+
+.ecommerce-page .strong-10x-ow9bip {
+  margin-top: -1.00px;
+  width: fit-content;
+}
+
+.ecommerce-page .paragraph-background-ICt1JG {
+  left: 6px;
+  position: absolute;
+  top: 5px;
+}
+
+.ecommerce-page .produto-FuxeBp {
+  height: 900px;
+  margin-bottom: -30.00px;
+  margin-top: -30.00px;
+  overflow: hidden;
+  width: 443px;
+}
+
+.ecommerce-page .frame-35-LdsLLV {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  left: 1px;
+  position: relative;
+  top: 39px;
+  width: 442px;
+}
+
+.ecommerce-page .produto-1pGgI4 {
+  height: 678.75px;
+  overflow: hidden;
+  width: 442.5px;
+}
+
+.ecommerce-page .frame-52-nLctZC {
+  background-color: transparent;
+  height: 675px;
+  left: 0px;
+  position: absolute;
+  top: 4px;
+  width: 51px;
+}
+
+.ecommerce-page .frame-34-1pGgI4 {
+  background-color: transparent;
+  height: 33px;
+  margin-top: -12px;
+  position: relative;
+  width: 66px;
+}
+
+.ecommerce-page .frame-33-1pGgI4 {
+  margin-top: -12px;
+}
+
+.ecommerce-page .heading-3-FGFZJw {
+  height: 16px;
+}
+
+.ecommerce-page .camiseta-supreme-army-bege-Mjan2g {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 241px;
+}
+
+.ecommerce-page .strong-10x-VV2RZG {
+  margin-top: -1.00px;
+  width: fit-content;
+}
+
+.ecommerce-page .genero-xR0AQv {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  left: 681px;
+  position: absolute;
+  top: 0px;
+}
+
+.ecommerce-page .mesculino-jTPLzG {
+  background-color: transparent;
+  height: 67px;
+  position: relative;
+  width: 234.8300018310547px;
+}
+
+.ecommerce-page .masculino-laRaxa {
+  background-color: transparent;
+  height: 29px;
+  left: 40px;
+  letter-spacing: 0.00px;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  white-space: nowrap;
+  width: 155px;
+}
+
+.ecommerce-page .background-laRaxa {
+  background-color: var(--white);
+  height: 3px;
+  left: 0px;
+  position: absolute;
+  top: 59px;
+  width: 235px;
+}
+
+.ecommerce-page .feminino-jTPLzG {
+  background-color: transparent;
+  height: 67px;
+  position: relative;
+  width: 209.16000366210938px;
+}
+
+.ecommerce-page .feminino-cG2GNl {
+  background-color: transparent;
+  height: 29px;
+  left: 40px;
+  letter-spacing: 0.00px;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  white-space: nowrap;
+  width: 129px;
+}
+
+.ecommerce-page .background-cG2GNl {
+  background-color: var(--granite-gray);
+  height: 3px;
+  left: 0px;
+  position: absolute;
+  top: 59px;
+  width: 209px;
+}
+
+.ecommerce-page .psicologo-ELDLPn {
+  align-items: center;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/psicologo.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  gap: 8px;
+  height: 806px;
+  left: 0px;
+  position: absolute;
+  top: 2093px;
+  width: 1920px;
+}
+
+.ecommerce-page .background-5Ukilt {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.49000000953674316) 90.28000235557556%);
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 324px 50px;
+  position: relative;
+  width: 658.701904296875px;
+}
+
+.ecommerce-page .heading-2-camiseta-tech-modal-UAJ3kB {
+  align-self: stretch;
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  height: 55px;
+  letter-spacing: 0.00px;
+  line-height: 55px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ecommerce-page .versteis-em-qualquer-UAJ3kB {
+  align-self: stretch;
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+  height: 22.8799991607666px;
+  letter-spacing: 0.00px;
+  line-height: 22.9px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ecommerce-page .link-UAJ3kB {
+  background-color: var(--white);
+  border-radius: 160px;
+  height: 40.02000045776367px;
+  position: relative;
+  width: 138.30999755859375px;
+}
+
+.ecommerce-page .compre-j-mIy3O8 {
+  background-color: transparent;
+  height: 18px;
+  left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 20.0px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: 79px;
+}
+
+.ecommerce-page .seo-produtos-ELDLPn {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 11px;
+  left: 51px;
+  position: absolute;
+  top: 3883px;
+  width: 1802px;
+}
+
+.ecommerce-page .prod-Oj8LA0 {
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/prod.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 751.0900268554688px;
+  width: 593.3300170898438px;
+}
+
+.ecommerce-page .background-1xORWx {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.49000000953674316) 100%);
+  background-color: transparent;
+  height: 222px;
+  left: 0px;
+  position: relative;
+  top: 529px;
+  width: 593px;
+}
+
+.ecommerce-page .frame-56-eor6Oj {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  left: 27px;
+  position: relative;
+  top: 67px;
+  width: 191px;
+}
+
+.ecommerce-page .frame-55-tK20Wx {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .heading-2-camisetas-c55jTy {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: 38px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .frame-54-tK20Wx {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  width: 166px;
+}
+
+.ecommerce-page .link-ik01Jm {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border-radius: 160px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 11px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .prod-RJ3FGz {
+  background-image: url(https://cdn.animaapp.com/projects/66dcbd19ea1b5ba552a57104/releases/674a70bbc989915b47db197f/img/prod-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 751.0900268554688px;
+  width: 593.3300170898438px;
+}
+
+.ecommerce-page .background-I2rghe {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.49000000953674316) 100%);
+  background-color: transparent;
+  height: 222px;
+  left: 0px;
+  position: relative;
+  top: 529px;
+  width: 593px;
+}
+
+.ecommerce-page .frame-59-wwu3A5 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  left: 27px;
+  position: relative;
+  top: 67px;
+  width: 166px;
+}
+
+.ecommerce-page .frame-58-XSrv66 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.ecommerce-page .heading-2-calas-FiRnXI {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: 38px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .frame-57-XSrv66 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .link-nXkchb {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border-radius: 160px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 11px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .prod-5nk1cU {
+  height: 751px;
+  width: 593px;
+}
+
+.ecommerce-page .frame-63-x21vyx {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 8px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+}
+
+.ecommerce-page .image-1-kXm0mq {
+  background-color: transparent;
+  height: 751.0899658203125px;
+  object-fit: cover;
+  position: relative;
+  width: 593.330078125px;
+}
+
+.ecommerce-page .background-kXm0mq {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.30696672201156616) 18.50000023841858%, rgba(0, 0, 0, 0.2695000171661377) 31.999999284744263%, rgba(0, 0, 0, 0.49000000953674316) 50%);
+  background-color: transparent;
+  height: 222px;
+  left: 0px;
+  position: absolute;
+  top: 529px;
+  width: 593px;
+}
+
+.ecommerce-page .frame-62-mNK4NI {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  left: 27px;
+  position: relative;
+  top: 67px;
+  width: 166px;
+}
+
+.ecommerce-page .frame-61-BPJLxZ {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  margin-right: -25.00px;
+  padding: 8px;
+  position: relative;
+}
+
+.ecommerce-page .heading-2-regatas-50yevk {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: 38px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .frame-60-BPJLxZ {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .link-tqCIQw {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border-radius: 160px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 11px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .as-mais-vendidas-ELDLPn {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  left: 51px;
+  position: absolute;
+  top: 2955px;
+  width: 1816px;
+}
+
+.ecommerce-page .heading-2-as-mais-vendidas-eyWRNx {
+  align-self: stretch;
+  background-color: transparent;
+  height: 29px;
+  letter-spacing: 0.00px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.ecommerce-page .frame-1384-eyWRNx {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .background-8VAiA6 {
+  background-color: transparent;
+  height: 809.6300048828125px;
+  overflow: hidden;
+  position: relative;
+  width: 442.5px;
+}
+
+.ecommerce-page .frame-1381-joJJeo {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 442px;
+}
+
+.ecommerce-page .link-eOgj3c {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-5-4xcA2v {
+  background-color: transparent;
+  height: 663.75px;
+  overflow: hidden;
+  position: relative;
+  width: 442.5px;
+}
+
+.ecommerce-page .image-2-trOxx8 {
+  background-color: transparent;
+  height: 664px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 442px;
+}
+
+.ecommerce-page .frame-1380-eOgj3c {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .heading-3-BvRvzc {
+  height: 16px;
+}
+
+.ecommerce-page .camiseta-tech-modal-army-manila-vIEdWy {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 233px;
+}
+
+.ecommerce-page .frame-1379-BvRvzc {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  width: 147.26268005371094px;
+}
+
+.ecommerce-page .frame-1377-wTMaxx {
+  background-color: transparent;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.ecommerce-page .frame-1378-wTMaxx {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-1373-h40Md1 {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-1372-JC7pBr {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+}
+
+.ecommerce-page .r22490-ZNxUpO {
+  background-color: transparent;
+  height: 14px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: relative;
+  text-align: left;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 50.182594299316406px;
+}
+
+.ecommerce-page .frame-1371-ZNxUpO {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  position: relative;
+}
+
+.ecommerce-page .r17992-VlSJI0 {
+  background-color: transparent;
+  height: 18px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 52.26909255981445px;
+}
+
+.ecommerce-page .strong-10x-h40Md1 {
+  align-self: stretch;
+  height: 14px;
+}
+
+.ecommerce-page .paragraph-background-joJJeo {
+  left: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+.ecommerce-page .frame-1383-8VAiA6 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.ecommerce-page .background-5WI1fU {
+  background-color: transparent;
+  height: 809.6300048828125px;
+  overflow: hidden;
+  position: relative;
+  width: 442.5px;
+}
+
+.ecommerce-page .frame-1370-v4FdC0 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 442px;
+}
+
+.ecommerce-page .link-mnEBDo {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 1px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-8-TRvZNA {
+  background-color: transparent;
+  height: 662.75px;
+  overflow: hidden;
+  position: relative;
+  width: 442.5px;
+}
+
+.ecommerce-page .image-5-7hRgxG {
+  background-color: transparent;
+  height: 663px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 442px;
+}
+
+.ecommerce-page .frame-1369-mnEBDo {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .heading-3-vIMYPq {
+  height: 16px;
+}
+
+.ecommerce-page .shorts-eco-tech-jogger-off-white-hDpbtZ {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 232px;
+}
+
+.ecommerce-page .frame-1368-vIMYPq {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  width: 147.26268005371094px;
+}
+
+.ecommerce-page .frame-1367-sCMBvu {
+  background-color: transparent;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.ecommerce-page .frame-1363-sCMBvu {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-1362-2tPR8c {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-1361-UOtCx9 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+}
+
+.ecommerce-page .r27990-WSLdc3 {
+  background-color: transparent;
+  height: 14px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: relative;
+  text-align: left;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 50.182594299316406px;
+}
+
+.ecommerce-page .frame-1360-WSLdc3 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  position: relative;
+}
+
+.ecommerce-page .r22392-WjfpSj {
+  background-color: transparent;
+  height: 18px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 52.26909255981445px;
+}
+
+.ecommerce-page .strong-10x-2tPR8c {
+  align-self: stretch;
+  height: 14px;
+}
+
+.ecommerce-page .paragraph-background-v4FdC0 {
+  left: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+.ecommerce-page .frame-1382-5WI1fU {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 15px;
+  position: relative;
+}
+
+.ecommerce-page .background-aLBGMq {
+  background-color: transparent;
+  height: 809.6300048828125px;
+  overflow: hidden;
+  position: relative;
+  width: 442.5px;
+}
+
+.ecommerce-page .frame-1359-z45w5L {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 442px;
+}
+
+.ecommerce-page .link-EIjlQ5 {
+  align-self: stretch;
+  background-color: transparent;
+  height: 678.75px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-6-MRgmav {
+  background-color: transparent;
+  height: 663px;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: -0px;
+  width: 442px;
+}
+
+.ecommerce-page .image-3-k1PPNq {
+  background-color: transparent;
+  height: 662px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 442px;
+}
+
+.ecommerce-page .frame-1358-EIjlQ5 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .heading-3-NLSEoV {
+  height: 16px;
+}
+
+.ecommerce-page .cala-athleisure-armybr-carbox-Fj9RkE {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+  width: 221px;
+}
+
+.ecommerce-page .frame-1357-NLSEoV {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  width: 147.26268005371094px;
+}
+
+.ecommerce-page .frame-1356-Pp4nOm {
+  background-color: transparent;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.ecommerce-page .frame-1352-Pp4nOm {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-1351-usxwgy {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-1350-tstqyp {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+}
+
+.ecommerce-page .frame-1349-a5Qdaw {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  position: relative;
+}
+
+.ecommerce-page .strong-10x-usxwgy {
+  align-self: stretch;
+  height: 14px;
+}
+
+.ecommerce-page .paragraph-background-z45w5L {
+  left: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+.ecommerce-page .pref-prod-aLBGMq {
+  background-color: transparent;
+  height: 809.6300048828125px;
+  overflow: hidden;
+  position: relative;
+  width: 442.5px;
+}
+
+.ecommerce-page .frame-73-xXVyQe {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: -8px;
+  position: absolute;
+  top: 679px;
+  width: 301px;
+}
+
+.ecommerce-page .frame-80-CXWgQz {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-79-8UHqLd {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-78-AQlYiR {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .heading-3-dYXT3w {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+}
+
+.ecommerce-page .camiseta-tech-modal-Lg58KS {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .frame-72-dYXT3w {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+  width: 155.26268005371094px;
+}
+
+.ecommerce-page .frame-77-Zu0Bye {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-71-G20cqa {
+  background-color: transparent;
+  flex: 0 0 auto;
+  position: relative;
+  width: 90.30078125px;
+}
+
+.ecommerce-page .frame-69-G20cqa {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-76-sFrxaL {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-67-5ymbNE {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-74-sepsU6 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.ecommerce-page .frame-75-5ymbNE {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-68-HIOefL {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .strong-10x-dl6QLl {
+  margin-top: -1.00px;
+  width: fit-content;
+}
+
+.ecommerce-page .image-6-xXVyQe {
+  background-color: transparent;
+  height: 664px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 442px;
+}
+
+.ecommerce-page .link-xXVyQe {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  gap: 8px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+}
+
+.ecommerce-page .frame-7-m1ZxJL {
+  background-color: transparent;
+  height: 662.75px;
+  overflow: hidden;
+  position: relative;
+  width: 442.5px;
+}
+
+.ecommerce-page .paragraph-background-xXVyQe {
+  left: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+.ecommerce-page .navbar-ELDLPn {
+  left: 102px;
+  position: absolute;
+}
+
+.ecommerce-page .navbar-fxiPNJ {
+  align-items: center;
+  display: flex;
+  gap: 515px;
+  justify-content: center;
+  left: 0px;
+  padding: 18px 123px;
+  position: relative;
+}
+
+.ecommerce-page .frame-2-zJwPEJ {
+  background-color: transparent;
+  height: 28px;
+  margin-left: -160.00px;
+  position: relative;
+  width: 521px;
+}
+
+.ecommerce-page .dom-sex-0800-1900-NZ938G {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+  height: 24px;
+  left: 230px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: 291px;
+}
+
+.ecommerce-page .ironberg-id-logo-branco-2-NZ938G {
+  background-color: transparent;
+  height: 115px;
+  left: -14px;
+  object-fit: cover;
+  position: absolute;
+  top: -36px;
+  width: 139px;
+}
+
+.ecommerce-page .nav-link-zJwPEJ {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 58px;
+  margin-right: -160.00px;
+  position: relative;
+}
+
+.ecommerce-page .link-Kbrb1T {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 38px;
+  position: relative;
+}
+
+.ecommerce-page .home-nPc9Gl {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .frame-1-nPc9Gl {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  justify-content: center;
+  position: relative;
+}
+
+.ecommerce-page .projetos-cTvvxX {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .trabalhos-nPc9Gl {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .sobre-ns-nPc9Gl {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .blog-nPc9Gl {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .btn-Kbrb1T {
+  align-items: flex-start;
+  background-color: #c80a2c;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  height: 61px;
+  padding: 19px 16px 10px;
+  position: relative;
+  width: 163px;
+}
+
+.ecommerce-page .contact-TrhHui {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .camiseta-athleisure {
+  background-color: transparent;
+  height: 16px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  white-space: nowrap;
+}
+
+.ecommerce-page .container {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.ecommerce-page .de {
+  background-color: transparent;
+  height: 15px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 14.585249900817871px;
+}
+
+.ecommerce-page .formulario {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.ecommerce-page .frame-28 {
+  align-items: center;
+  background-color: transparent;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.ecommerce-page .frame-29 {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-30 {
+  align-items: flex-end;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-31 {
+  background-color: transparent;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.ecommerce-page .frame-32 {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  width: 99px;
+}
+
+.ecommerce-page .frame-33 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-43 {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-44 {
+  align-items: center;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-45 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .frame-46 {
+  background-color: transparent;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.ecommerce-page .frame-47 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  width: 155.26268005371094px;
+}
+
+.ecommerce-page .frame-48 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .heading-3 {
+  align-self: stretch;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.ecommerce-page .horrio-de-atendimento {
+  align-self: stretch;
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: 17.2px;
+  position: relative;
+  text-align: left;
+}
+
+.ecommerce-page .icon {
+  background-color: transparent;
+  position: absolute;
+}
+
+.ecommerce-page .informaes {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+}
+
+.ecommerce-page .navbar {
+  background-color: transparent;
+  height: 201px;
+  top: 0px;
+  width: 1718px;
+}
+
+.ecommerce-page .off {
+  background-color: transparent;
+  height: 11px;
+  letter-spacing: 0.00px;
+  line-height: 11px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 18.245874404907227px;
+}
+
+.ecommerce-page .paragraph-background {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: inline-flex;
+  gap: 3px;
+  padding: 7px 9px;
+}
+
+.ecommerce-page .por {
+  background-color: transparent;
+  height: 18px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 18.225749969482422px;
+}
+
+.ecommerce-page .prod {
+  background-color: transparent;
+  position: relative;
+}
+
+.ecommerce-page .produto {
+  background-color: transparent;
+  position: relative;
+}
+
+.ecommerce-page .produtos {
+  background-color: transparent;
+  position: absolute;
+}
+
+.ecommerce-page .r11992 {
+  background-color: transparent;
+  height: 18px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: 52.26909255981445px;
+}
+
+.ecommerce-page .r14990 {
+  background-color: transparent;
+  height: 14px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: relative;
+  text-align: left;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 50.182594299316406px;
+}
+
+.ecommerce-page .r31900 {
+  background-color: transparent;
+  height: 14px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: relative;
+  text-align: left;
+  text-decoration: line-through;
+  white-space: nowrap;
+  width: 50.182594299316406px;
+}
+
+.ecommerce-page .strong-10x {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ecommerce-page .veja-mais {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: 20.0px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ecommerce-page .x20 {
+  background-color: transparent;
+  height: 14px;
+  letter-spacing: 0.00px;
+  line-height: 13.2px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 25.933626174926758px;
+}
+</style><script id="anime-js-script" src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js" integrity="sha256-98Q574VkbV+PkxXCKSgL6jVq9mrVbS7uCdA+vt0sLS8=" crossorigin="anonymous"></script><script id="imgloaded-js-script" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script><style id="action-links-styles">
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+#anima-interface{
+  transition: all 0.5s ease-in-out;
+}
+
+#anima-watermark {
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+#anima-watermark-link{
+  position: fixed;
+  bottom:20px;
+  height:30px;
+  border-radius: 1000px;
+  background: #3B3B3B;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  user-select:none;
+  transition: width 0.25s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  text-decoration:none;
+  color:#fff;
+  padding:8px 16px 8px 11px;
+  font-family:Mulish, sans-serif;
+  font-size:12px;
+}
+#anima-watermark-link .text {
+  margin-left: 6px;
+}
+
+.omniview-anima-action-links .link{
+  height: 30px;
+  width: 30px;
+  border-radius: 1000px;
+  background: #3B3B3B;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  user-select:none;
+  transition: width 0.25s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  text-decoration:none;
+  color:#fff;
+}
+.omniview-anima-action-links #comment-link .text,.omniview-anima-action-links #code-link .text{
+  display:none;
+  font-size:12px;
+  margin-right:5px;
+}
+.omniview-anima-action-links #comment-link:hover,.omniview-anima-action-links #code-link:hover{
+  width:105px;
+}
+.omniview-anima-action-links #comment-link.pop-active,.omniview-anima-action-links #code-link.pop-active{
+  width:105px;
+  background: #FF6250;
+}
+.omniview-anima-action-links #comment-link.pop-active .text,.omniview-anima-action-links #code-link.pop-active .text{
+  display:block
+}
+.omniview-anima-action-links #comment-link:hover .text,.omniview-anima-action-links #code-link:hover .text{
+  display:block;
+}
+
+.link.navigation{
+  position:fixed;
+  left:50%;
+  transform:translateX(-50%);
+  width:auto;
+  height:32px;
+  color:#fff;
+  font-size:12px;
+  cursor:default;
+  padding:0 5px;
+}
+.link.navigation .icon{
+  margin:0 6px;
+  fill:none;
+  stroke:currentColor;
+  cursor:pointer;
+}
+.link.navigation .icon.disabled{
+  opacity:0.5;
+  cursor:default;
+}
+
+
+.link.navigation .home-icon{
+  margin-left:6px;
+  fill:currentColor;
+  stroke:currentColor;
+  cursor:pointer;
+}
+
+.omniview-anima-action-links .restart{
+  height: 30px;
+  padding:0 12px;
+  background: #3B3B3B;
+  border-radius: 1000px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  color:#f1f1f1;
+  font-size: 12px;
+}
+
+.omniview-anima-action-links{
+  display:flex;
+  align-items:center;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  font-family:Mulish, sans-serif;
+  transition: all 0.5s ease-in-out;
+  opacity:1;
+}
+
+.omniview-anima-action-links > * + *{
+   margin-right: 0;
+   margin-left: 10px;
+}
+
+.idle{
+  opacity:0;
+  pointer-events:none;
+}
+
+#popoverOpener {
+  position: absolute;
+  left: 50%;
+  margin-left: -10vw;
+  text-align: center;
+  top: 45vh;
+  width: 20vw;
+}
+
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  font-family: "sans-serif";
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.popover.top {
+  margin-top: -12px
+}
+
+.popover.right {
+  margin-left: 10px
+}
+
+.popover.bottom {
+  margin-top: 10px
+}
+
+.popover.left {
+  margin-left: -10px
+}
+
+.popover-title {
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0
+}
+
+.popover-content {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  overflow:hidden;
+  font-family:Mulish, sans-serif;
+}
+
+
+
+.popover>.arrow,.popover>.arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid
+}
+
+.popover>.arrow {
+  border-width: 11px
+}
+
+.popover>.arrow:after {
+  content: "";
+  border-width: 10px
+}
+
+.popover.top>.arrow {
+  bottom: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-color: #999;
+  border-top-color: rgba(0,0,0,.25);
+  border-bottom-width: 0
+}
+
+.popover.top>.arrow:after {
+  bottom: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-color: #fff;
+  border-bottom-width: 0
+}
+
+.popover.right>.arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-right-color: #999;
+  border-right-color: rgba(0,0,0,.25);
+  border-left-width: 0
+}
+
+.popover.right>.arrow:after {
+  bottom: -10px;
+  left: 1px;
+  content: " ";
+  border-right-color: #fff;
+  border-left-width: 0
+}
+
+.popover.bottom>.arrow {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0,0,0,.25)
+}
+
+.popover.bottom>.arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  content: " ";
+  border-top-width: 0;
+  border-bottom-color: #fff
+}
+
+.popover.left>.arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999;
+  border-left-color: rgba(0,0,0,.25)
+}
+
+.popover.left>.arrow:after {
+  right: 1px;
+  bottom: -10px;
+  content: " ";
+  border-right-width: 0;
+  border-left-color: #fff
+}
+
+
+
+#anima-comment-popover,#anima-code-popover{
+  background:#333333;
+  color:#fff;
+}
+
+#anima-comment-popover.top>.arrow,#anima-comment-popover.top>.arrow:after,#anima-code-popover.top>.arrow:after,#anima-code-popover.top>.arrow {
+  border-top-color:#333;
+}
+
+#anima-comment-popover .btn,#anima-code-popover .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 20px;
+  background: #FF6250;
+  color:#fff;
+  border-radius: 100px;
+  width: max-content;
+  text-decoration:none;
+}
+
+@media screen and (max-width: 550px) {
+  #anima-watermark-link {
+    padding: 6px !important;
+  }
+  #anima-watermark-link .text {
+    display: none !important;
+  }
+}

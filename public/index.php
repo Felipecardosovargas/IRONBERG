@@ -1,89 +1,109 @@
-<!-- public/index.php -->
-<?php include '../includes/header.php'; ?>
+<?php
+// Define any variables or functions here if needed
+$title = "Ironberg";
+$logo = "../assets/images/ironberg-id-logo-branco.png";
+?>
 
-<div class="main-page">
-    <div class="background">
-        <div class="background-wrapper">
-            <div class="depositphotos-230424992-stock-parent">
-                <!-- Imagens de fundo -->
-                <img class="depositphotos-230424992-stock-icon" alt="" src="assets/images/depositphotos_230424992-stock-photo-stars-night-sky-background-texture 1.png">
-                <img class="depositphotos-230424992-stock-icon1" alt="" src="assets/images/depositphotos_230424992-stock-photo-stars-night-sky-background-texture 2.png">
-                <img class="depositphotos-230424992-stock-icon2" alt="" src="assets/images/depositphotos_230424992-stock-photo-stars-night-sky-background-texture 3.png">
-                <img class="depositphotos-230424992-stock-icon3" alt="" src="assets/images/depositphotos_230424992-stock-photo-stars-night-sky-background-texture 7.png">
-                <img class="depositphotos-230424992-stock-icon4" alt="" src="assets/images/depositphotos_230424992-stock-photo-stars-night-sky-background-texture 8.png">
-                <img class="depositphotos-230424992-stock-icon5" alt="" src="assets/images/depositphotos_230424992-stock-photo-stars-night-sky-background-texture 9.png">
-                <img class="depositphotos-230424992-stock-icon6" alt="" src="assets/images/depositphotos_230424992-stock-photo-stars-night-sky-background-texture 4.png">
-                <img class="depositphotos-230424992-stock-icon7" alt="" src="assets/images/depositphotos_230424992-stock-photo-stars-night-sky-background-texture 5.png">
-                <img class="depositphotos-230424992-stock-icon8" alt="" src="assets/images/depositphotos_230424992-stock-photo-stars-night-sky-background-texture 6.png">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="icon" href="<?php echo $logo; ?>">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title><?php echo $title; ?></title>
+</head>
+<body>
+
+    <header>
+        <!-- Logo da Ironberg -->
+        <img src="<?php echo $logo; ?>" alt="Logo Ironberg" class="logo">
+
+        <!-- Barra de navegação -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shopping</a></li>
+                <li><a href="#" class="login">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <h1 class="home_title"><?php echo $title; ?></h1>
+        <h2 class="home_subtitle">O maior centro de treinamento da américa latina</h2>
+        <div class="arrow_bottom">
+            <i class="bi bi-arrow-down"></i>
+        </div>
+    </section>
+
+    <section class="champions">
+        <h3 class="champions_title">Junte-se ao nosso grupo de <span>campeões</span></h3>
+        <div class="pictures">
+            <figure class="picture_down">
+                <img src="../assets/images/1704229324659479ccec219_1704229324_3x2_md.jpg" alt="Tenente Breno">
+            </figure>
+            <figure>
+                <img src="../assets/images/Imagem-do-WhatsApp-de-2023-11-04-as-14.44.10_61bebafd.webp" alt="Ramon Dino" class="picture_up">
+            </figure>
+            <figure class="picture_down">
+                <img src="../assets/images/francielle-mattos-impressionou-os-jurados-e-fotografos-com-seu-shape-no-mr-olympia-1694784135879_v2_3x4.jpg" alt="Francielle Matos">
+            </figure>
+            <figure>
+                <img src="../assets/images/caike-pro.jpg" alt="Caike Pro" class="picture_up">
+            </figure>
+        </div>
+        <button class="submit">Matricule-se já!</button>
+    </section>
+
+    <section class="franqueado">
+        <h1 class="franqueado_title">Seja um franqueado!</h1>
+        <h2 class="franqueado_subtitle">Seja investidor do centro de treinamento que vai dominar o mundo!</h2>
+        <button class="franqueado_button">Saiba mais</button>
+    </section>
+
+    <section class="planos">
+        <h1 class="planos_title">Escolha o que mais combina com você</h1>
+        <div class="container">
+            <div class="card">
+                <h1>Anual</h1>
+                <ul>
+                    <li>Maior economia</li>
+                    <li>Compromisso com resultados</li>
+                    <li>Benefícios exclusivos</li>
+                    <li>Conveniência financeira</li>
+                    <li>Bônus de fidelidade</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h1>Semestral</h1>
+                <ul>
+                    <li>Flexibilidade com economia</li>
+                    <li>Foco no médio prazo</li>
+                    <li>Promoções exclusivas</li>
+                    <li>Menos burocracia</li>
+                    <li>Motivação garantida</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h1>Mensal</h1>
+                <ul>
+                    <li>Sem compromisso de longo prazo</li>
+                    <li>Flexibilidade total</li>
+                    <li>Promoções exclusivas</li>
+                    <li>Acesso total aos serviços</li>
+                    <li>Início imediato</li>
+                </ul>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="content">
-        <div class="planos">
-            <h2>Escolha o que mais combina com VOCÊ!</h2>
-            <div class="planos-container">
-                <!-- Plano Basic -->
-                <div class="plano-basico">
-                    <h3>Basic</h3>
-                    <p>R$299,99</p>
-                    <ul>
-                        <li>Acesso facilitado</li>
-                        <li>Acesso ilimitado</li>
-                        <li>Acesso ao vestiário</li>
-                        <li>Grupo de apoio</li>
-                    </ul>
-                    <button class="matricule-se">Matricule-se</button>
-                </div>
-
-                <!-- Plano Premium -->
-                <div class="plano-premium">
-                    <h3>Premium</h3>
-                    <p>R$499,99</p>
-                    <ul>
-                        <li>Todos os benefícios do plano basic</li>
-                        <li>Plano de treino personalizado</li>
-                        <li>Acesso à uma equipe de especialistas</li>
-                        <li>Suporte customizado</li>
-                    </ul>
-                    <button class="matricule-se">Matricule-se</button>
-                </div>
-
-                <!-- Plano Epic -->
-                <div class="plano-epic">
-                    <h3>Epic</h3>
-                    <p>R$559,99</p>
-                    <ul>
-                        <li>Todos os benefícios do plano premium</li>
-                        <li>Consultas nutricionais</li>
-                        <li>Acesso à área VIP</li>
-                        <li>Check-up diário</li>
-                    </ul>
-                    <button class="matricule-se">Matricule-se</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="avaliaes">
-            <h2>O que nossos clientes falam sobre nós</h2>
-            <p>A academia oferece um ambiente moderno e bem organizado, com equipamentos de qualidade e profissionais atenciosos. A variedade de aulas , como musculação, funcional e yoga, atende diferentes objetivos. No entanto, em horários de pico, pode faltar espaço para algumas atividades. No geral, é uma boa opção para quem busca bem-estar e resultados.</p>
-            <div class="clientes">
-                <div class="cliente">
-                    <p>@hoffmann</p>
-                </div>
-                <div class="cliente">
-                    <p>@augustoboff</p>
-                </div>
-                <div class="cliente">
-                    <p>@luccas</p>
-                </div>
-                <div class="cliente">
-                    <p>@eliezier</p>
-                </div>
-            </div>
-            <button class="insira-avaliaes">Insira avaliações</button>
-        </div>
-    </div>
-</div>
-
-<?php include '../includes/footer.php'; ?>
+    <footer>
+        © 2024 Ironberg Fitness. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
